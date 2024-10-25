@@ -248,8 +248,10 @@ Créer un projet avec create-react-app.
 Configurer Firebase pour le projet (Firestore, Hosting, Authentication).
 bash
 Copier le code
+```bash
 npx create-react-app portfolio
 npm install firebase
+```
 2. Création des Composants (Front-End) :
 Chaque section sera un composant React.
 Exemple pour la section "À propos" :
@@ -270,8 +272,7 @@ export default About;
 ```
 3. Connexion avec Firebase (Back-End) :
 Configurer Firebase dans le projet (firebase.js) pour la base de données et l’authentification.
-js
-Copier le code
+```jsx
 // firebase.js
 import firebase from "firebase/app";
 import "firebase/firestore";
@@ -289,10 +290,12 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 export const firestore = firebase.firestore();
 export const auth = firebase.auth();
+```
+
 4. Intégration des Données Firebase :
+   
 Récupérer des données Firestore pour la section "Compétences" :
-jsx
-Copier le code
+```jsx
 import React, { useEffect, useState } from 'react';
 import { firestore } from './firebase';
 
@@ -319,13 +322,14 @@ function Skills() {
 }
 
 export default Skills;
+```
+
 5. Ajout des Animations avec Framer Motion :
 Ajouter des animations pour la navigation fluide entre sections :
-bash
-Copier le code
+```bash
 npm install framer-motion
-jsx
-Copier le code
+```
+```jsx
 import { motion } from 'framer-motion';
 
 function Section({ title, children }) {
@@ -340,10 +344,10 @@ function Section({ title, children }) {
     </motion.section>
   );
 }
+```
 6. Formulaire de Contact avec Firebase :
 Envoyer les données via Firebase Functions :
-jsx
-Copier le code
+```jsx
 function ContactForm() {
   const [formData, setFormData] = useState({ name: '', message: '' });
 
@@ -367,15 +371,15 @@ function ContactForm() {
     </form>
   );
 }
+```
 7. Tests et Validation :
 Tester chaque composant pour assurer son bon fonctionnement. Utiliser Jest et React Testing Library pour les tests unitaires.
 8. Déploiement avec Firebase :
 Configurer le déploiement :
-bash
-Copier le code
+```bash
 firebase init
 firebase deploy
-
+```
 
  * Intégration des différents éléments de la solution web
 
@@ -406,8 +410,7 @@ Organiser les dossiers en séparant les composants, styles, et services.
 2. Création des Composants :
 Header : Créer un composant qui contient la barre de navigation (ex. : "À propos", "Compétences", "Contact").
 Sections : Pour chaque partie (à propos, compétences, etc.), créer des composants React autonomes.
-jsx
-Copier le code
+```jsx
 import React from 'react';
 
 function Header() {
@@ -425,10 +428,12 @@ function Header() {
 }
 
 export default Header;
+```
+
 3. Gestion des Données Dynamiques :
 Si tu utilises Firebase, chaque section qui nécessite des données (comme les compétences) peut les récupérer dynamiquement avec des appels à la base de données Firebase.
-jsx
-Copier le code
+
+```jsx
 import React, { useEffect, useState } from 'react';
 import { firestore } from './firebase'; // Import du service firebase
 
@@ -455,10 +460,11 @@ function Skills() {
 }
 
 export default Skills;
+```
+
 4. Ajout de l'Interactivité (Formulaire de Contact) :
 Créer un formulaire qui envoie les données à Firebase Firestore :
-jsx
-Copier le code
+```jsx
 function ContactForm() {
   const [formData, setFormData] = useState({ name: '', message: '' });
 
@@ -477,10 +483,12 @@ function ContactForm() {
 }
 
 export default ContactForm;
+```
+
 5. Style et Animations :
 Utilise CSS Modules ou Styled Components pour styliser ton application. Tu peux ajouter des animations avec Framer Motion pour rendre l'interface plus dynamique.
-jsx
-Copier le code
+
+```jsx
 import { motion } from 'framer-motion';
 
 function Section({ title, children }) {
@@ -497,15 +505,16 @@ function Section({ title, children }) {
 }
 
 export default Section;
+```
 6. Test et Optimisation :
 Tester chaque composant et la navigation pour s'assurer que tout fonctionne correctement.
 Optimiser le chargement des composants pour améliorer la performance et l’expérience utilisateur.
 7. Déploiement du Front-End :
 Une fois l’application fonctionnelle, tu peux déployer le front-end en utilisant Firebase Hosting ou un autre service d'hébergement.
-bash
+```bash
 Copier le code
 firebase deploy
-
+```
 
  * Implémentation de la logique et de la base de données
 
@@ -531,8 +540,8 @@ Configurer des outils de surveillance pour suivre les performances (New Relic, e
 Exemple pour un serveur avec Node.js et Nginx :
 Serveur Nginx :
 Configurer Nginx comme reverse proxy qui redirige les requêtes vers l’application Node.js.
-nginx
-Copier le code
+
+```nginx
 server {
     listen 80;
     server_name your-domain.com;
@@ -546,12 +555,13 @@ server {
         proxy_cache_bypass $http_upgrade;
     }
 }
+```
 Lancement de l’Application :
 Lancer le serveur Node.js sur le port défini (ici 3000) :
-bash
-Copier le code
+```bash
 node app.js
 Accès via le Domaine :
+```
 Après configuration, l'application sera accessible via http://your-domain.com.
 
 **3. Déployer un Système d’Assurance Qualité tout au long du Cycle de Vie d’une Solution Web**

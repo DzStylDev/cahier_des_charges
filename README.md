@@ -253,8 +253,8 @@ npm install firebase
 2. Création des Composants (Front-End) :
 Chaque section sera un composant React.
 Exemple pour la section "À propos" :
-jsx
-Copier le code
+```jsx
+
 import React from 'react';
 
 function About() {
@@ -267,6 +267,7 @@ function About() {
 }
 
 export default About;
+```
 3. Connexion avec Firebase (Back-End) :
 Configurer Firebase dans le projet (firebase.js) pour la base de données et l’authentification.
 js

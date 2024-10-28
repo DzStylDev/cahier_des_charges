@@ -1929,8 +1929,7 @@ useEffect(() => {
    
 Ajouter des animations pour la navigation fluide entre sections :
 
-```bash
-npm install framer-motion
+```jsx
 
 import React, { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'

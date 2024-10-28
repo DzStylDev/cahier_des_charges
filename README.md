@@ -1,4 +1,4 @@
-<p style="color:blue">**1. Cadrer un Projet et Conceptualiser une Solution Web**</p>
+<p color="red">**1. Cadrer un Projet et Conceptualiser une Solution Web**</p>
 
 Cahier des charges
 

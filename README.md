@@ -1,6 +1,6 @@
 <p color="red">**1. Cadrer un Projet et Conceptualiser une Solution Web**</p>
 
-Cahier des charges
+Rédaction d'un Cahier des charges
 
 **Introduction**
 
@@ -132,8 +132,8 @@ Cahier des charges
    
     Risques identifiés : Difficultés possibles (retards, problèmes techniques, bugs).
     Plans de mitigation : Solutions prévues pour gérer les risques (tests réguliers, révisions de planning).
-
-- Rédaction des spécifications techniques :
+    
+Rédaction des spécifications techniques :
 
    1. Introduction
    
@@ -198,7 +198,7 @@ Cahier des charges
 
              Le projet sera versionné sous GitHub avec une documentation complète pour faciliter les futures mises à jour et la maintenance.
 
-- Déploiement d'un environnement de travail avec des outils de versionnage, de partage et de collaboration/communication :
+Déploiement d'un environnement de travail avec des outils de versionnage, de partage et de collaboration/communication :
 
    Outils de versionnage :
 
@@ -215,11 +215,11 @@ Cahier des charges
 
       Créer des documentations partagées via Confluence ou Notion pour centraliser les informations du projet.
 
- - Réalisation d'une maquette
+Réalisation d'une maquette
 
          Maquette fait sur figma le lien se trouve sur le portofoliov2 public dans le README.MD
 
- - Identification des fonctionnalités à développer pour structurer l'architecture de la solution web et de la base de données :
+Identification des fonctionnalités à développer pour structurer l'architecture de la solution web et de la base de données :
 
    Définir les objectifs
 
@@ -228,7 +228,7 @@ Cahier des charges
          Concevoir la base de données : Créer un modèle de données avec les entités et leurs relations (ex. : utilisateurs, projets, messages).
          Planifier les interactions : Définir les interactions entre le front-end et le back-end (ex. : API pour chaque fonctionnalité).
 
-- Rédaction d'une présentation pour présenter les choix techniques, les maquettes et le schéma de la solution web :
+Rédaction d'une présentation pour présenter les choix techniques, les maquettes et le schéma de la solution web :
 
    1. Choix Techniques :
            

@@ -1,4 +1,4 @@
-<p color="red">**1. Cadrer un Projet et Conceptualiser une Solution Web**</p>
+**1. Cadrer un Projet et Conceptualiser une Solution Web**
 
 Rédaction d'un Cahier des charges
 

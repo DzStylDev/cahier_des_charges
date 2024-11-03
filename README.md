@@ -6,8 +6,7 @@ Rédaction d'un Cahier des charges
 
    **Projet** :
 
-    le projet s'appelle portfoliov2 en comparaison au portfolio de la version 1 fait en html / css et javascript
-
+    le projet s'appelle portfoliov2 
     Description : portfolio contenant l'ensemble de mes compétences, , de tout ce que j'ai accompli durant mes 2 années à Epitech.
 
 **Contexte**:
@@ -16,7 +15,7 @@ Rédaction d'un Cahier des charges
 
 **Objectif généraux :**
  
-    Les buts de ce projet est de présenter les compétences, les expériences , les centre d'intérêt , les hobbies , les langues , une courte description de qui je suis et ce que je fait actuellement , les projets fait à epitech durant mes 2 années
+    Les buts de ce projet est de présenter les compétences, les expériences , les centres d'intérêt , les hobbies , les langues , une courte description de qui je suis et ce que je fait actuellement , les projets fait à epitech durant mes 2 années
 
 **2. Objectifs et Enjeux**
    
@@ -69,7 +68,7 @@ Rédaction d'un Cahier des charges
     Calendrier : Tous les jours je développe une fonctionnalités sur le portfolio , ça peut généralement me prendre 10/15/20/30 min selon la feature
     Isoler toute les parties intéressante d'un portoflio pour ma part les sections AProposDeMoi , Centre_Interet , Compétences , Contact , Projects , Header , Footer
     Mise en place du header , ajout d'onglets permettant de naviger sur différente sections.
-    Création du composant AProposDeMoi , Centre_Intéret , Compétences  , Contact , Projects
+    Création du composant AProposDeMoi , Centre_Intéret , Compétences  , Contact , Projects, Mes Diplôme et mes expériences
     Ajout du back pour le formulaire d'envoi du composant Contact
     Répartition des tâches : Le projet est réaliser individuellement
 
